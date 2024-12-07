@@ -2,9 +2,8 @@
 const formatBoldText = (text) => {
 
     const formattedBold = text.replace(/\*\*(.*?)\*\*/g, '<br><br>' + '<b>$1</b>');
-    const formattedBullets = formattedBold.replace(/##/g, 'Recipe:' + '<br>');
-    const formatbullet = formattedBullets.replace(/\*/g, '<br>' + '•')
-    // const newline = formatbullet.replace(/(<b>.*?<\/b>)/g, '<br><br>$1');
+    const formattedBullets = formattedBold.replace(/##/g, '<h3><b>Recipe:</b></h3>' + '<br>');
+    const formatbullet = formattedBullets.replace(/\*/g,  '<b>•</b>')
     const serialnum = formatbullet.replace(/(\d+\.\s)/g, '');
     return serialnum;
 };
