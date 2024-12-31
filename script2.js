@@ -103,3 +103,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
+
+//In the end of this year i am making my final commit, 2024 gave me best lessons about the importance of time and life.
+console.log("Happy new year!")
