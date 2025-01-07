@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
             recipeContainer.innerHTML = "<p>Generating your recipe...</p>"; // Show loading message
 //API call
             const response = await fetch(
-                "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyB0j8Qeu4t1h191Yoz-7cGbbIH1e0v7O1s",
+                "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyAYotXuuLxMc9WZAIzFj_KjxIpWUL9QrZ4",
                 {
                     method: "POST",
                     headers: {
